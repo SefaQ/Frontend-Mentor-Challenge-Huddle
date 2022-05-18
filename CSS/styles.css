@@ -1,0 +1,204 @@
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #00252e;
+}
+
+h2 {
+  font-size: 4.5rem;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.white-txt{
+  color: #ffffff;
+}
+
+/* title section */
+#title {
+  margin: 3% 3%;
+}
+
+.title-btn {
+  -webkit-border-radius: 43;
+  -moz-border-radius: 43;
+  border-radius: 43px;
+  font-family: 'Open Sans', sans-serif;
+  color: #ff52bf;
+  font-size: 1rem;
+  background: #ffffff;
+  padding: 0.5% 4%;
+  border: solid #ff52bf 2px;
+  position: absolute;
+  left: 85%;
+}
+
+.title-btn:hover {
+  background-color: #ff8fd8;
+  color: #ffff;
+  border: solid #ff8fd8;
+}
+
+.title-heading {
+  font-weight: 700;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 10%;
+  color: #00252e;
+}
+
+.title-paragraph {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 5% 23%;
+}
+
+.align-mid {
+  text-align: center;
+}
+
+.cta-btn {
+  border-radius: 43px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fffff;
+  font-size: 1.5rem;
+  background: #ff52bf;
+  border: solid #ff52bf 2px;
+  width: 25%;
+  padding: 1%
+}
+
+.cta-btn:hover {
+  background-color: #ff8fd8;
+  border: solid #ff8fd8;
+}
+
+.screen-mockups {
+  margin: 10% 0;
+}
+
+.title-icon {
+  position: relative;
+  left: 36.5%;
+}
+
+/* Features section */
+#features {
+  margin: 5% 0;
+}
+
+.bg-image {
+  background-color: hsl(207, 100%, 98%);
+}
+
+.bg-svg {
+  width: 205vh;
+}
+
+.bg-svg-m{
+  display: none;
+}
+
+.svg-illustration {
+  height: 40vh;
+}
+
+.features-heading{
+  font-size: 2rem;
+}
+
+.features-text {
+  padding: 5% 8%;
+}
+
+
+/* cta section */
+#cta{
+  margin: 15% 0;
+}
+
+.cta-heading{
+  font-size: 2.5rem;
+  margin-bottom: 3%;
+}
+
+/* Footer */
+
+#footer{
+  background-color: hsl(192, 100%, 9%);
+
+}
+
+.footer-logo{
+  filter: invert(100%) sepia(2%) saturate(0%) hue-rotate(119deg) brightness(102%) contrast(103%);
+}
+
+.footer-container{
+  padding: 10% 10%
+}
+
+.footer-paragraph{
+  padding: 4% 38% 4% 0;
+}
+
+.ft-icon{
+  padding-right: 2%;
+}
+
+.fa-brands{
+  margin-top: 10%;
+  padding-bottom: 10%;
+}
+
+.fa-brands:hover{
+  color: hsl(207, 100%, 68%);
+}
+
+.email{
+  border-radius: 5px;
+  padding: 0 5%;
+}
+
+.subscribe-btn{
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  background: #ff52bf;
+  border: solid #ff52bf 2px;
+  border-radius: 5px;
+  padding: 0 5%;
+  margin-left: 3%;
+}
+
+.subscribe-btn:hover{
+  background-color: #ff8fd8;
+  border: solid #ff8fd8;
+}
+
+
+.attribution{
+  text-align: center;
+  background-color: hsl(192, 100%, 9%);
+  color: #fff;
+  margin: 0;
+  padding-bottom: 3%;
+}
+
+
+
+
+/* Mobile Media Query */
+
+@media (max-width 375px){
+
+.bg-svg{
+  display: none;
+}
+
+
+
+}
