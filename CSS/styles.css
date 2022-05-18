@@ -199,6 +199,8 @@ p{
   display: none;
 }
 
-
+.bg-svg-m{
+  display: block;
+}
 
 }
